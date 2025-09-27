@@ -1,0 +1,85 @@
+<table.html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>My Table</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;
+        padding:30px}
+        .page-title {text-align: center; 
+            font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+    font-size: 72px;
+margin: 10px 0 30px;}
+.modules-table {width: 88%;
+margin: 0 auto;
+border-collapse: collapse;
+font-size: 18px;}
+.modules-table th,
+.modules-table td {border: 3px solid #444;
+padding: 10px 12px;
+vertical-align: middle;}
+.modules-table th {background: #f7f7f7;
+font-weight: 700;
+text-align: center;
+font-size: 20px;}
+.col-subject {width: 20%;
+text-align: left;}
+.col-module {width: 20%;
+text-align: center;}
+.col-desc {width: 60%;
+text-align: left;}
+.contact {display: block;
+width: 80%;
+margin: 12px auto;
+text-align: left;
+font-size: 18px;}
+</style>
+</head>
+<body>
+    <div class="page-title">CTI-110 Modules !</div>
+    <table class="modules-table" border="1">
+        <thead>
+            <tr>
+                <th class="col-subject">Subject</th>
+                <th class="col-module">Module</th>
+                <th class="col-desc">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="col-subject">HTML</td>
+                <td class="col-module">Module1</td>
+                <td class="col-desc">HTML Basics</td>
+            </tr>
+            <tr>
+                <td class="col-subject">Databases</td>
+                <td class="col-module">Module2</td>
+                <td class="col-desc">Relational Database Basics</td>
+            </tr>
+            <tr>
+                <td class="col-subject" rowspan="5">Python</td>
+                <td class="col-module">Module3</td>
+                <td class="col-desc">Intro to Python</td>
+            </tr>
+            <tr>
+                <td class="col-module">Module4</td>
+                <td class="col-desc">Variables</td>
+            </tr>
+            <tr>
+                <td class="col-module">Module5</td>
+                <td class="col-desc">Decision Structures</td>
+            </tr>
+            <tr>
+                <td class="col-module">Module6</td>
+                <td class="col-desc">Loops</td>
+            </tr>
+            <tr>
+                <td class="col-module">Module7</td>
+                <td class="col-desc">Functions</td>
+            </tr>
+        </tbody>
+    </table>
+    <a class="contact" href="(404) 333-3882">Contact Us</a>
+</body>
+</html>
